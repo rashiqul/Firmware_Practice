@@ -61,7 +61,7 @@ int firstRepeatedLog(const char logs[][LOG_LENGTH], const int size)
 
 }
 
-int main()
+int FindRepeatLogMsgMain()
 {
     char logs[][LOG_LENGTH] = {"INFO: Starting process", "ERROR: Null pointer",
                                "WARNING: Low memory", "ERROR: Null pointer",

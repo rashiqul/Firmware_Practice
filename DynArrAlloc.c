@@ -58,7 +58,7 @@ void resetMemoryPool(void)
 }
 
 
- int main(void)
+ int DynArrAllocMain(void)
  {
     int size = 10;
     int* array = createDynamicArray(size);

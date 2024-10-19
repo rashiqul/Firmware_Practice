@@ -113,6 +113,4 @@ int dequeue(Queue* queue)
         q->rear->next = queue->front;
         free(temp);
     }
-
-
 }

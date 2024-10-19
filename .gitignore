@@ -1,18 +1,6 @@
-# Ignore binary files with the same name as .c files but without extensions
-# For example, if you have source files like main.c, utils.c, etc.
-
-# Add more patterns as needed for other .c files
-
-# Alternatively, you can use a more general pattern if you have many .c files
-# This pattern will ignore any file without an extension that has a corresponding .c file
+# List source (*.c) files to ignore
 tempCodeRunnerFile.c
-
-# Explicitly include README.md
-!README.md
-
-# Explicitly include .gitignore
-!.gitignore
-
+Queue4ISRHandle.c
 
 # Ignore other common binary files
 *.o

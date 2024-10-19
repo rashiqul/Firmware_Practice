@@ -21,7 +21,7 @@ int firstRepeated(int* arrPtr, int size)
     return -1;
 }
 
-int main(void)
+int FindFirstRepeatElemIntMain(void)
 {
     int arr[] = {10, 5, 3, 4, 3, 5, 6};
     int size  = sizeof(arr)/sizeof(arr[0]);
