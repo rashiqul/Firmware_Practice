@@ -1,0 +1,65 @@
+# Ignore binary files with the same name as .c files but without extensions
+# For example, if you have source files like main.c, utils.c, etc.
+
+# Add more patterns as needed for other .c files
+
+# Alternatively, you can use a more general pattern if you have many .c files
+# This pattern will ignore any file without an extension that has a corresponding .c file
+*.[!.]*
+
+# Explicitly include README.md
+!README.md
+
+# Explicitly include .gitignore
+!.gitignore
+
+
+# Ignore other common binary files
+*.o
+*.out
+*.exe
+*.bin
+*.elf
+*.hex
+*.map
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# Ignore compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore compiled static libraries
+*.a
+*.lib
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore core dumps
+core
+
+# Ignore generated documentation
+*.html
+*.pdf
+*.doc
+*.docx
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
