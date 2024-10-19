@@ -5,6 +5,7 @@
 
 # Alternatively, you can use a more general pattern if you have many .c files
 # This pattern will ignore any file without an extension that has a corresponding .c file
+tempCodeRunnerFile.c
 
 # Explicitly include README.md
 !README.md
