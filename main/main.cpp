@@ -5,6 +5,8 @@ extern "C" {
     void DynArrAllocMain();
     void FindFirstRepeatElemIntMain();
     void FindRepeatLogMsgMain();
+    void RotatedLogSearchMain();
+    void SortLogMsgMain();
 }
 
 
@@ -16,6 +18,8 @@ int main(void)
     DynArrAllocMain();
     FindFirstRepeatElemIntMain();
     FindRepeatLogMsgMain();
+    RotatedLogSearchMain();
+    SortLogMsgMain();
 
     return 0;
 }

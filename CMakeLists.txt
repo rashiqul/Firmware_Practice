@@ -30,6 +30,8 @@ set(ROOT_SOURCES
     DynArrAlloc.c
     FindFirstRepeatElement_Int.c
     FindRepeatLogMsg.c
+    RotatedLogSearch.c
+    SortingLogMessages.c
 )
 
 # Combine all source files

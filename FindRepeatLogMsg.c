@@ -57,8 +57,6 @@ int firstRepeatedLog(const char logs[][LOG_LENGTH], const int size)
     }
 
     return -1;
-
-
 }
 
 int FindRepeatLogMsgMain()
