@@ -21,7 +21,7 @@ Queue4ISRHandle.c
 # Ignore Python cache files
 .pytest_cache/
 /Python/__pycache__/
-/Python/test/__pycache__/
+/Python/tests/__pycache__/
 
 # Ignore compiled dynamic libraries
 *.so
