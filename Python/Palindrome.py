@@ -8,10 +8,11 @@
 
 def is_palindrome(expression: str)-> bool:
     """
-    
+    Function to determine if a string is a palindrome
     """
-    # Filter out spaces and punctuation
     filtered_expression = []
+
+    # Filter out spaces and punctuation
     for char in expression:
         # Check if character is alphanumeric
         if char.isalnum():
