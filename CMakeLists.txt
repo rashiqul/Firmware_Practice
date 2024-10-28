@@ -27,11 +27,16 @@ file(GLOB ROOT_SOURCES "*.c")
 
 # Add all source files in the root directory
 set(ROOT_SOURCES
+    # C source files
+    CountSetBits.c
     DynArrAlloc.c
     FindFirstRepeatElement_Int.c
     FindRepeatLogMsg.c
     RotatedLogSearch.c
     SortingLogMessages.c
+    FindSubString.c
+    # C++ source files
+    FaultedMemoryAddress.cpp
 )
 
 # Combine all source files
