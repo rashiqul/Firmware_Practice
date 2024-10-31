@@ -61,14 +61,36 @@ Why Relevant: Helpful for debugging or analyzing logs in SDV systems.
 
 """
 import Palindrome
+import ProductExceptSelf
+import BinarySearch
 
 if __name__ == "__main__":
 
-    # Palindrome Check
+    """
+    Palindrome Check
+    """
     print("Palindrome Check:")
     # Output: True
     print(Palindrome.is_palindrome("A man, a plan, a canal: Panama")) 
     # Output: False 
     print(Palindrome.is_palindrome("race a car"))
+
+    """
+    Array Manipulation
+    """
+    print("\nProduct Except Self:")
+
+    # Output: [24, 12, 8, 6]
+    print(ProductExceptSelf.product_except_self([1, 2, 3, 4]))
+    # Output: [60, 40, 30, 24]
+    print(ProductExceptSelf.product_except_self([2, 3, 4, 5]))
+
+    """
+    Binary Search
+    """
+    print("\nBinary Search:")
+
+    # Output: 3
+    print(BinarySearch.binary_search([1, 2, 3, 4, 5, 6], 4))
 
 
