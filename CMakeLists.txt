@@ -20,30 +20,11 @@ set(CMAKE_BUILD_TYPE Debug)
 # Add the code directory
 add_subdirectory(main)
 
-# Add all source files in the root directory
-file(GLOB ROOT_SOURCES "*.c")
+# Add the source directory
+add_subdirectory(source)
 
-
-
-# Add all source files in the root directory
-set(ROOT_SOURCES
-    # C source files
-    CountSetBits.c
-    DynArrAlloc.c
-    FindFirstRepeatElement_Int.c
-    FindRepeatLogMsg.c
-    RotatedLogSearch.c
-    SortingLogMessages.c
-    FindSubString.c
-    # C++ source files
-    FaultedMemoryAddress.cpp
-)
-
-# Combine all source files
-set(SOURCES ${ROOT_SOURCES})
-
-# Add the executable
-add_executable(Firmware_Practice ${SOURCES})
+# Add the executable using the files from the source directory
+add_executable(Firmware_Practice ${SOURCE_FILES})
 
 # Link the main executable with the main directory sources
 target_link_libraries(Firmware_Practice main)
