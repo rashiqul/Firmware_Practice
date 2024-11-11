@@ -63,6 +63,7 @@ Why Relevant: Helpful for debugging or analyzing logs in SDV systems.
 import Palindrome
 import ProductExceptSelf
 import BinarySearch
+import NonRepeatChar
 
 if __name__ == "__main__":
 
@@ -93,4 +94,12 @@ if __name__ == "__main__":
     # Output: 3
     print(BinarySearch.binary_search([1, 2, 3, 4, 5, 6], 4))
 
+    """
+    First Non-Repeating Character
+    """
+    print("\nNon-Repeating Character:")
 
+    # Output: 0
+    print(NonRepeatChar.first_non_repeating_char("leetcode"))
+    # Output: -1  
+    print(NonRepeatChar.first_non_repeating_char("aabb"))     

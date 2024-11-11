@@ -9,11 +9,15 @@ extern "C" {
     void RotatedLogSearchMain();
     void SortLogMsgMain();
     void FindSubStringMain();
+    void SerializeFragmentedDataMain();
 
 }
 
 extern void FaultedMemoryAddressMain();
-
+extern void LinkedListMain();
+extern void HashMapMain();
+extern void PriorityQueueMain();
+extern void FleetDiagnosticSystemMain();
 
 int main(void)
 {
@@ -32,6 +36,11 @@ int main(void)
     SortLogMsgMain();
     FaultedMemoryAddressMain();
     FindSubStringMain();
+    LinkedListMain();
+    HashMapMain();
+    PriorityQueueMain();
+    FleetDiagnosticSystemMain();
+    SerializeFragmentedDataMain();
 
     return 0;
 }

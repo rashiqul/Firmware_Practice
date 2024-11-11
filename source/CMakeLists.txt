@@ -7,7 +7,12 @@ set(SOURCE_FILES
     source/RotatedLogSearch.c
     source/SortingLogMessages.c
     source/FindSubString.c
+    source/SerializeFragmentedData.c
     source/FaultedMemoryAddress.cpp
+    source/LinkedList.cpp
+    source/HashMap.cpp
+    source/PriorityQueue.cpp
+    source/FleetDiagnosticSystem.cpp
 )
 
 # Make `SOURCE_FILES` available to the parent CMakeLists
