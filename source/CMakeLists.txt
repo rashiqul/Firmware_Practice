@@ -13,6 +13,7 @@ set(SOURCE_FILES
     source/HashMap.cpp
     source/PriorityQueue.cpp
     source/FleetDiagnosticSystem.cpp
+    source/TwoSum.cpp
 )
 
 # Make `SOURCE_FILES` available to the parent CMakeLists
