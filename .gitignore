@@ -1,6 +1,9 @@
 # List source (*.c) files to ignore
 tempCodeRunnerFile.c
+
+# Temporarily ignore specific source files
 Queue4ISRHandle.c
+SerializeFragmentedData.c
 
 # Ignore other common binary files
 *.o
