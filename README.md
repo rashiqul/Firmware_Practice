@@ -17,24 +17,7 @@ Each exercise is designed to tackle common problems and scenarios encountered in
 
 ## Setup
 
-To get started with the exercises, follow these steps:
-
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/yourusername/Firmware_Practice.git
-    cd Firmware_Practice
-    ```
-
-2. **Compile the code**:
-    Use `gcc` or any other C compiler to compile the code. For example:
-    ```sh
-    gcc -o output_file source_file.c
-    ```
-
-3. **Run the executable**:
-    ```sh
-    ./output_file
-    ```
+TBD
 
 ## Contributing
 Contributions are welcome! If you have any improvements or additional exercises, feel free to open a pull request 
