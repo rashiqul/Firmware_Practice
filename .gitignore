@@ -16,6 +16,7 @@ tempCodeRunnerFile.c
 /obj/
 /Debug/
 /Release/
+.cache/
 
 # Ignore Python cache files
 .pytest_cache/
