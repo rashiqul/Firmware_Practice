@@ -59,9 +59,9 @@ void mergeSort(int arr[], int left, int right)
     {
         int mid = left + (right - left) / 2;
 
-        mergeSort(int arr[], left, mid);
-        mergeSort(int arr[], (mid + 1), right);
-        merge(int arr[], left, middle, right);
+        mergeSort(arr, left, mid);
+        mergeSort(arr, (mid + 1), right);
+        merge(arr, left, mid, right);
     }
 }
 

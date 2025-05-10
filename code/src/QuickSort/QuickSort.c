@@ -19,7 +19,7 @@ int partition(int arr[], int low, int high)
     /* Index of the smaller element */
     int i = (low - 1);
 
-    for(int j = low, j < high; j++)
+    for(int j = low; j < high; j++)
     {
         /* If the current element is smaller than or equal to the pivot */
         if (arr[j] <= pivot)

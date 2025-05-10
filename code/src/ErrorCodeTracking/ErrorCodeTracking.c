@@ -18,7 +18,7 @@ typedef struct Node
 {
     int errorCode;
     int count;
-    Node_t *next;
+    struct Node *next;
 }Node_t;
 
 /* Hash map array */
@@ -31,7 +31,7 @@ int hash(const char *errCode)
     while (*errCode)
     {
         /*  */
-        hashValue = (hashValue + *errCode ) % MAX_SIZE;
+        hashValue = (hashValue + *errCode ) % MAX_HASH;
         errCode++;
     }
     return hashValue;

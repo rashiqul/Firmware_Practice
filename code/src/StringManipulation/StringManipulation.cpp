@@ -24,7 +24,7 @@ class StringManipulation
 
             for(size_t i = 0; i < str.length(); i++)
             {
-                if(str[i] != " ")
+                if(str[i] != ' ')
                 {
                     /* Append characters to form a word*/
                     word = word + str[i];
@@ -56,7 +56,7 @@ class StringManipulation
             }
 
             /* Re-construct the string */
-            for(size_t o = 0; i < words.size(); ++i)
+            for(size_t i = 0; i < words.size(); ++i)
             {
                 if(i > 0)
                 {

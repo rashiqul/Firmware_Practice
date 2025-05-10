@@ -1,4 +1,5 @@
 #include <iostream>
+#include "BitManipulation.h"
 
 int main(void)
 {

@@ -35,13 +35,13 @@ endif()
 file(GLOB TEST_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 
 # -----------------------------------------
-# Import all real source .cpp files for coverage
+# Import all real source .c/.cpp files for coverage
 # NOTE: This assumes code/src/CMakeLists.txt defines PROJECT_SOURCE_FILES
 # -----------------------------------------
-file(GLOB_RECURSE CODE_SOURCES
-    ${CMAKE_SOURCE_DIR}/code/src/*.{cpp,c}
-)
+file(GLOB_RECURSE CODE_SOURCES_CPP ${CMAKE_SOURCE_DIR}/code/src/*.cpp)
+file(GLOB_RECURSE CODE_SOURCES_C   ${CMAKE_SOURCE_DIR}/code/src/*.c)
 
+set(CODE_SOURCES ${CODE_SOURCES_CPP} ${CODE_SOURCES_C})
 # -----------------------------------------
 # Build TestExecutable from tests + actual implementation .cpp files
 # -----------------------------------------
